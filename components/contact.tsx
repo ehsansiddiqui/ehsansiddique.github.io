@@ -86,7 +86,7 @@ function Contact() {
                 <div className="flex items-center justify-between py-4">
                   <a
                     target="_blank"
-                    href="https://www.linkedin.com/in/itsazibfarooq/"
+                    href="https://www.linkedin.com/in/ehsansiddique/"
                   >
                     <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
                       <FaLinkedinIn />
@@ -94,7 +94,7 @@ function Contact() {
                   </a>
                   <a
                     target="_blank"
-                    href="https://www.github.com/itsazibfarooq/"
+                    href="https://github.com/ehsansiddiqui/"
                   >
                     <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
                       <FaGithub />
@@ -102,7 +102,7 @@ function Contact() {
                   </a>
                   <a
                     target="_blank"
-                    href="https://www.instagram.com/Itsazibfarooq"
+                    href="https://www.instagram.com/ehsansiddiqui__/"
                   >
                     <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
                       <FaInstagram />
@@ -110,13 +110,13 @@ function Contact() {
                   </a>
                   <a
                     target="_blank"
-                    href="https://www.twitter.com/Itsazibfarooq"
+                    href="https://x.com/EhsanSiddiqui15"
                   >
                     <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
                       <FaTwitter />
                     </div>
                   </a>
-                  <a href="mailto:azibfarooq10@gmail.com">
+                  <a href="mailto:ihsaansiddiqui@gmail.com">
                     <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
                       <AiOutlineMail />
                     </div>

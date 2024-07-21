@@ -2,6 +2,8 @@ import React from "react";
 import ProjectItem from "./projectItem";
 
 import superchat from "../public/assets/projects/superchat.png";
+import malariadetection from "../public/assets/projects/malariadetection.png";
+
 
 function Projects() {
   return (
@@ -13,9 +15,9 @@ function Projects() {
         <h2 className="py-4">What I&apos;ve Built</h2>
         <div className="grid md:grid-cols-2 gap-8">
           <ProjectItem
-            image={superchat}
-            title="Super Chat"
-            tools={["Socket.io"]}
+            image={malariadetection}
+            title="Medical Imaging Analysis for Malaria Detection"
+            tools={["Python, TensorFlow, WanDB"]}
             url="/projects/superchat"
           />
         </div>

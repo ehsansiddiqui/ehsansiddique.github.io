@@ -64,6 +64,14 @@
         "async": false
       }
     },
+    "(app-client)/./components/navbar.tsx": {
+      "*": {
+        "id": "(sc_client)/./components/navbar.tsx",
+        "name": "*",
+        "chunks": [],
+        "async": false
+      }
+    },
     "(app-client)/./components/main.tsx": {
       "*": {
         "id": "(sc_client)/./components/main.tsx",
@@ -80,9 +88,9 @@
         "async": false
       }
     },
-    "(app-client)/./public/assets/projects/superchat.png": {
+    "(app-client)/./public/assets/projects/malariadetection.png": {
       "*": {
-        "id": "(sc_client)/./public/assets/projects/superchat.png",
+        "id": "(sc_client)/./public/assets/projects/malariadetection.png",
         "name": "*",
         "chunks": [],
         "async": false
@@ -136,41 +144,9 @@
         "async": false
       }
     },
-    "(app-client)/./public/assets/webinars/nnfs.jpeg": {
+    "(app-client)/./public/assets/cover.webp": {
       "*": {
-        "id": "(sc_client)/./public/assets/webinars/nnfs.jpeg",
-        "name": "*",
-        "chunks": [],
-        "async": false
-      }
-    },
-    "(app-client)/./public/assets/webinars/aws_swph.jpeg": {
-      "*": {
-        "id": "(sc_client)/./public/assets/webinars/aws_swph.jpeg",
-        "name": "*",
-        "chunks": [],
-        "async": false
-      }
-    },
-    "(app-client)/./public/assets/webinars/cllm_bg.jpeg": {
-      "*": {
-        "id": "(sc_client)/./public/assets/webinars/cllm_bg.jpeg",
-        "name": "*",
-        "chunks": [],
-        "async": false
-      }
-    },
-    "(app-client)/./public/assets/webinars/dp_gcp.jpeg": {
-      "*": {
-        "id": "(sc_client)/./public/assets/webinars/dp_gcp.jpeg",
-        "name": "*",
-        "chunks": [],
-        "async": false
-      }
-    },
-    "(app-client)/./components/navbar.tsx": {
-      "*": {
-        "id": "(sc_client)/./components/navbar.tsx",
+        "id": "(sc_client)/./public/assets/cover.webp",
         "name": "*",
         "chunks": [],
         "async": false
@@ -259,11 +235,27 @@
       ],
       "async": false
     },
+    "/Users/ehsansiddique/Downloads/ehsansiddiqui.github.io/node_modules/next/font/google/target.css?{\"path\":\"app/layout.tsx\",\"import\":\"Inter\",\"arguments\":[{\"subsets\":[\"latin\"]}],\"variableName\":\"inter\"}": {
+      "id": "(app-client)/./node_modules/next/font/google/target.css?{\"path\":\"app/layout.tsx\",\"import\":\"Inter\",\"arguments\":[{\"subsets\":[\"latin\"]}],\"variableName\":\"inter\"}",
+      "name": "*",
+      "chunks": [
+        "app/layout:static/chunks/app/layout.js"
+      ],
+      "async": false
+    },
+    "/Users/ehsansiddique/Downloads/ehsansiddiqui.github.io/app/globals.css": {
+      "id": "(app-client)/./app/globals.css",
+      "name": "*",
+      "chunks": [
+        "app/layout:static/chunks/app/layout.js"
+      ],
+      "async": false
+    },
     "/Users/ehsansiddique/Downloads/ehsansiddiqui.github.io/node_modules/next/dist/client/script.js": {
       "id": "(app-client)/./node_modules/next/dist/client/script.js",
       "name": "*",
       "chunks": [
-        "app/page:static/chunks/app/page.js"
+        "app/projects/superchat/page:static/chunks/app/projects/superchat/page.js"
       ],
       "async": false
     },
@@ -271,7 +263,7 @@
       "id": "(app-client)/./node_modules/next/dist/client/script.js",
       "name": "*",
       "chunks": [
-        "app/page:static/chunks/app/page.js"
+        "app/projects/superchat/page:static/chunks/app/projects/superchat/page.js"
       ],
       "async": false
     },
@@ -279,7 +271,7 @@
       "id": "(app-client)/./node_modules/next/dist/client/image-component.js",
       "name": "*",
       "chunks": [
-        "app/page:static/chunks/app/page.js"
+        "app/projects/superchat/page:static/chunks/app/projects/superchat/page.js"
       ],
       "async": false
     },
@@ -287,7 +279,7 @@
       "id": "(app-client)/./node_modules/next/dist/client/image-component.js",
       "name": "*",
       "chunks": [
-        "app/page:static/chunks/app/page.js"
+        "app/projects/superchat/page:static/chunks/app/projects/superchat/page.js"
       ],
       "async": false
     },
@@ -295,7 +287,7 @@
       "id": "(app-client)/./node_modules/next/dist/client/link.js",
       "name": "*",
       "chunks": [
-        "app/page:static/chunks/app/page.js"
+        "app/projects/superchat/page:static/chunks/app/projects/superchat/page.js"
       ],
       "async": false
     },
@@ -303,7 +295,15 @@
       "id": "(app-client)/./node_modules/next/dist/client/link.js",
       "name": "*",
       "chunks": [
-        "app/page:static/chunks/app/page.js"
+        "app/projects/superchat/page:static/chunks/app/projects/superchat/page.js"
+      ],
+      "async": false
+    },
+    "/Users/ehsansiddique/Downloads/ehsansiddiqui.github.io/components/navbar.tsx": {
+      "id": "(app-client)/./components/navbar.tsx",
+      "name": "*",
+      "chunks": [
+        "app/projects/superchat/page:static/chunks/app/projects/superchat/page.js"
       ],
       "async": false
     },
@@ -323,8 +323,8 @@
       ],
       "async": false
     },
-    "/Users/ehsansiddique/Downloads/ehsansiddiqui.github.io/public/assets/projects/superchat.png": {
-      "id": "(app-client)/./public/assets/projects/superchat.png",
+    "/Users/ehsansiddique/Downloads/ehsansiddiqui.github.io/public/assets/projects/malariadetection.png": {
+      "id": "(app-client)/./public/assets/projects/malariadetection.png",
       "name": "*",
       "chunks": [
         "app/page:static/chunks/app/page.js"
@@ -379,67 +379,20 @@
       ],
       "async": false
     },
-    "/Users/ehsansiddique/Downloads/ehsansiddiqui.github.io/public/assets/webinars/nnfs.jpeg": {
-      "id": "(app-client)/./public/assets/webinars/nnfs.jpeg",
+    "/Users/ehsansiddique/Downloads/ehsansiddiqui.github.io/public/assets/cover.webp": {
+      "id": "(app-client)/./public/assets/cover.webp",
       "name": "*",
       "chunks": [
-        "app/page:static/chunks/app/page.js"
-      ],
-      "async": false
-    },
-    "/Users/ehsansiddique/Downloads/ehsansiddiqui.github.io/public/assets/webinars/aws_swph.jpeg": {
-      "id": "(app-client)/./public/assets/webinars/aws_swph.jpeg",
-      "name": "*",
-      "chunks": [
-        "app/page:static/chunks/app/page.js"
-      ],
-      "async": false
-    },
-    "/Users/ehsansiddique/Downloads/ehsansiddiqui.github.io/public/assets/webinars/cllm_bg.jpeg": {
-      "id": "(app-client)/./public/assets/webinars/cllm_bg.jpeg",
-      "name": "*",
-      "chunks": [
-        "app/page:static/chunks/app/page.js"
-      ],
-      "async": false
-    },
-    "/Users/ehsansiddique/Downloads/ehsansiddiqui.github.io/public/assets/webinars/dp_gcp.jpeg": {
-      "id": "(app-client)/./public/assets/webinars/dp_gcp.jpeg",
-      "name": "*",
-      "chunks": [
-        "app/page:static/chunks/app/page.js"
-      ],
-      "async": false
-    },
-    "/Users/ehsansiddique/Downloads/ehsansiddiqui.github.io/components/navbar.tsx": {
-      "id": "(app-client)/./components/navbar.tsx",
-      "name": "*",
-      "chunks": [
-        "app/page:static/chunks/app/page.js"
-      ],
-      "async": false
-    },
-    "/Users/ehsansiddique/Downloads/ehsansiddiqui.github.io/node_modules/next/font/google/target.css?{\"path\":\"app/layout.tsx\",\"import\":\"Inter\",\"arguments\":[{\"subsets\":[\"latin\"]}],\"variableName\":\"inter\"}": {
-      "id": "(app-client)/./node_modules/next/font/google/target.css?{\"path\":\"app/layout.tsx\",\"import\":\"Inter\",\"arguments\":[{\"subsets\":[\"latin\"]}],\"variableName\":\"inter\"}",
-      "name": "*",
-      "chunks": [
-        "app/layout:static/chunks/app/layout.js"
-      ],
-      "async": false
-    },
-    "/Users/ehsansiddique/Downloads/ehsansiddiqui.github.io/app/globals.css": {
-      "id": "(app-client)/./app/globals.css",
-      "name": "*",
-      "chunks": [
-        "app/layout:static/chunks/app/layout.js"
+        "app/projects/superchat/page:static/chunks/app/projects/superchat/page.js"
       ],
       "async": false
     }
   },
   "entryCSSFiles": {
-    "/Users/ehsansiddique/Downloads/ehsansiddiqui.github.io/app/page": [],
     "/Users/ehsansiddique/Downloads/ehsansiddiqui.github.io/app/layout": [
       "static/css/app/layout.css"
-    ]
+    ],
+    "/Users/ehsansiddique/Downloads/ehsansiddiqui.github.io/app/page": [],
+    "/Users/ehsansiddique/Downloads/ehsansiddiqui.github.io/app/projects/superchat/page": []
   }
 }
