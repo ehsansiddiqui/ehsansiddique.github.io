@@ -4,6 +4,7 @@ import About from "@/components/about";
 import Skills from "@/components/skills";
 import Projects from "@/components/projects";
 import Experience from "@/components/Experience";
+import Education from "@/components/education";
 import Research from "@/components/research";
 import Contact from "@/components/contact";
 import Script from "next/script";
@@ -15,7 +16,8 @@ export default function Home() {
       <Navbar />
       <Main />
       <About />
-      <Research />
+        <Education/>
+      {/*<Research />*/}
       <Webinars />
       <Experience />
       <Projects />

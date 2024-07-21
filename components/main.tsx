@@ -21,7 +21,7 @@ function Main() {
               Hi, I&apos;m{" "}
               <span className="text-[#d18800]">Ehsan Siddique{hover ? "🤝" : " "}</span>
             </h1>
-            <h1 className="py-2 text-gray-700">A Software Engineer</h1>
+            <h1 className="py-2 text-gray-700">Data Scientist</h1>
           </div>
           <p className="py-4 text-gray-600 max-w-[70%] m-auto">
             {
@@ -31,29 +31,29 @@ function Main() {
           <div className="flex items-center justify-between max-w-[330px] m-auto py-4">
             <a
               target="_blank"
-              href="https://www.linkedin.com/in/itsazibfarooq/"
+              href="https://www.linkedin.com/in/ehsansiddique/"
             >
               <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
                 <FaLinkedinIn />
               </div>
             </a>
 
-            <a target="_blank" href="https://www.github.com/itsazibfarooq/">
+            <a target="_blank" href="https://github.com/ehsansiddiqui/">
               <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
                 <FaGithub />
               </div>
             </a>
-            <a target="_blank" href="https://www.instagram.com/Itsazibfarooq">
+            <a target="_blank" href="https://www.instagram.com/ehsansiddiqui__/">
               <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
                 <FaInstagram />
               </div>
             </a>
-            <a target="_blank" href="https://www.twitter.com/Itsazibfarooq">
+            <a target="_blank" href="https://x.com/EhsanSiddiqui15">
               <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
                 <FaTwitter />
               </div>
             </a>
-            <a href="mailto:azibfarooq10@gmail.com">
+            <a href="mailto:ihsaansiddiqui@gmail.com">
               <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
                 <AiOutlineMail />
               </div>

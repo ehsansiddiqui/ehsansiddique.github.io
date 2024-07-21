@@ -64,37 +64,49 @@ function Navbar() {
       <div className="flex justify-between items-center w-full h-full px-2 2xl:px-16">
         <Image src="/assets/sign.png" width="125" height="50" alt="/" />
         <div>
-          <ul style={{ color: `${linkColor}` }} className="hidden md:flex">
-            <Link href="/#home">
+          <ul style={{ color: `${linkColor}`}} className="hidden md:flex">
+            <Link href="/#home" className="py-2">
               <li className="ml-10 text-sm uppercase hover:border-b">Home</li>
             </Link>
-            <Link href="/#about">
+            <Link href="/#about" className="py-2">
               <li className="ml-10 text-sm uppercase hover:border-b">About</li>
             </Link>
-            <Link href="/#skills">
+            <Link href="/#about" className="py-2">
+              <li className="ml-10 text-sm uppercase hover:border-b">Education</li>
+            </Link>
+            <Link href="/#about" className="py-2">
+              <li className="ml-10 text-sm uppercase hover:border-b">Experience</li>
+            </Link>
+            <Link href="/#skills" className="py-2">
               <li className="ml-10 text-sm uppercase hover:border-b">Skills</li>
             </Link>
-            <Link href="/#projects">
+            <Link href="/#projects" className="py-2">
               <li className="ml-10 text-sm uppercase hover:border-b">
                 Projects
               </li>
             </Link>
-            <Link href="/#contact">
+            <Link href="/#contact" className="py-2">
               <li className="ml-10 text-sm uppercase hover:border-b">
                 Contact
               </li>
             </Link>
+            <Link href={"http://tinyurl.com/usxj5dyv"} style={{marginLeft:20}}>
+              <button className="bg-gradient-to-r from-[#5651e5] to-[#709dff] px-8 py-2 mr-8">
+                Resume
+              </button>
+            </Link>
           </ul>
 
+
           <div className="md:hidden hover:cursor-pointer" onClick={handleNav}>
-            <AiOutlineMenu size={25} color={`${linkColor}`} />
+            <AiOutlineMenu size={25} color={`${linkColor}`}/>
           </div>
         </div>
       </div>
 
       {/* Hamburger Sidebar */}
       <div
-        className={nav ? "md:hidden fixed left-0 top-0 w-full bg-black/70" : ""}
+          className={nav ? "md:hidden fixed left-0 top-0 w-full bg-black/70" : ""}
       >
         <div
           className={

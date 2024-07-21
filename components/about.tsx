@@ -1,8 +1,8 @@
 "use client";
 import Image from "next/image";
 
-import AboutImage from "../public/assets/profile.jpg";
-import hoverImage from "../public/assets/profile2.jpg";
+import AboutImage from "../public/assets/dpimages.jpeg";
+import hoverImage from "../public/assets/dpimages.jpeg";
 import React, { useState, useEffect, useRef } from "react";
 
 const About = () => {
@@ -19,7 +19,7 @@ const About = () => {
           <p className="uppercase text-xl tracking-widest text-[#5651e5]">
             About
           </p>
-          <h2 className="py-4">Hi, I&apos;m Azib 🤝</h2>
+          <h2 className="py-4">Hi, I&apos;m Ehsan 🤝</h2>
           <p className="py-2 text-[#808080] font-mono">\\ Hello world 👋</p>
           <p className="py-2 text-gray-600">
             If I have to describe myself in a single word, it would be{" "}

@@ -77,8 +77,8 @@ function Contact() {
                 />
               </div>
               <div>
-                <h2 className="py-2">Azib Farooq</h2>
-                <p>Full Stack Developer</p>
+                <h2 className="py-2">Ehsan Siddique</h2>
+                <p>Data Scientist</p>
                 <p>Available for Freelance or Full-Time Position.</p>
               </div>
               <div>
