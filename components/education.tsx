@@ -6,7 +6,7 @@ import bahrialogo from "../public/assets/bahria-university-logo.png";
 
 const Education = () => {
     return (
-        <div id="about" className="w-full md:h-screen p-2 items-center py-16">
+        <div id="education" className="w-full md:h-screen p-2 items-center py-16">
             <div className="max-w-[80%] m-auto md:grid grid-cols-3 gap-8">
                 <div className="col-span-2">
                     <p className="uppercase text-xl tracking-widest text-[#5651e5]">
@@ -15,15 +15,16 @@ const Education = () => {
                     <h2 className="py-4">Master&apos;s in Data Science 🎓</h2>
                     <p className="py-2 text-[#808080] font-mono"> 2021 - 2022</p>
                     <p className="py-2 text-gray-600">
-                        Hello, I am currently pursuing my Masters in Computer Science at
-                        Miami University, where my academic journey is deeply rooted in the
-                        the ever-evolving field of Machine Learning and AI. My current research
-                        endeavors revolve around multi-modal models and their security against adversarial
-                        attacks. Specifically, I am dedicated to fortifying the architecture and preventing jailbreak
-                        of large language models enabling strong resistance against adversarial examples. This pursuit is
-                        driven by my passion for contributing to the advancements in
-                        artificial intelligence and its responsible utilization in diverse
-                        technological landscapes.
+                        Hello, I have completed my Masters in Data Science at
+                        Université Paris Cité, where my academic journey is deeply rooted in the
+                        the ever-evolving field of Machine Learning and AI. I studied courses such as Advanced Data Science,
+                        Natural Language Processing, Machine Learning, and Robotics in my masters program.
+                        I completed my thesis on detecting anomalies in human trajectories as a part of LISTE group at École d'ingénieurs
+                        du numérique (ISEP). The objective was to compare unsupervised
+                        approaches for anomaly detection and develop an efficient online detection method. I explored statistical, machine learning,
+                        and deep learning approaches, including DBSCAN, Recurrent Neural Networks, and deep generative sequence modeling. I presented my findings at seminars at ISEP
+                        and Université Paris Cité and published my work as a first author at the International Congress on Information and Communication
+                        Technology in London.
                     </p>
                     <p>
                         <strong>Advisor</strong>
@@ -52,15 +53,13 @@ const Education = () => {
                     <h2 className="py-4">Bachelors&apos;s in Computer Science 🎓</h2>
                     <p className="py-2 text-[#808080] font-mono"> 2021 - 2022</p>
                     <p className="py-2 text-gray-600">
-                        Hello, I am currently pursuing my Masters in Computer Science at
-                        Miami University, where my academic journey is deeply rooted in the
-                        the ever-evolving field of Machine Learning and AI. My current research
-                        endeavors revolve around multi-modal models and their security against adversarial
-                        attacks. Specifically, I am dedicated to fortifying the architecture and preventing jailbreak
-                        of large language models enabling strong resistance against adversarial examples. This pursuit is
-                        driven by my passion for contributing to the advancements in
-                        artificial intelligence and its responsible utilization in diverse
-                        technological landscapes.
+                        I have completed my bachelors in Computer Science from Bahria University. I studied courses such as
+                        Computer Programming, Object-Oriented Programming, Applied Calculus, Probability and Statistics,
+                        Artificial Intelligence, and Discrete Mathematics. These courses provided me with a strong foundation
+                        in Computer Science, which was further enhanced by laboratory courses. In my thesis, I worked on the research and development of an
+                        in-house collaboration platform for students and professors, integrated with recommendation systems. This platform is currently
+                        in use at the university, aiding students in their research and final year projects.
+
                     </p>
                     <p>
                         <strong>Advisor</strong>

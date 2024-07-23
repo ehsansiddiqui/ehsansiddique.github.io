@@ -64,14 +64,6 @@
         "async": false
       }
     },
-    "(app-client)/./components/navbar.tsx": {
-      "*": {
-        "id": "(sc_client)/./components/navbar.tsx",
-        "name": "*",
-        "chunks": [],
-        "async": false
-      }
-    },
     "(app-client)/./components/main.tsx": {
       "*": {
         "id": "(sc_client)/./components/main.tsx",
@@ -91,6 +83,30 @@
     "(app-client)/./public/assets/projects/malariadetection.png": {
       "*": {
         "id": "(sc_client)/./public/assets/projects/malariadetection.png",
+        "name": "*",
+        "chunks": [],
+        "async": false
+      }
+    },
+    "(app-client)/./components/contact.tsx": {
+      "*": {
+        "id": "(sc_client)/./components/contact.tsx",
+        "name": "*",
+        "chunks": [],
+        "async": false
+      }
+    },
+    "(app-client)/./components/navbar.tsx": {
+      "*": {
+        "id": "(sc_client)/./components/navbar.tsx",
+        "name": "*",
+        "chunks": [],
+        "async": false
+      }
+    },
+    "(app-client)/./components/education.tsx": {
+      "*": {
+        "id": "(sc_client)/./components/education.tsx",
         "name": "*",
         "chunks": [],
         "async": false
@@ -123,30 +139,6 @@
     "(app-client)/./public/assets/experience/ashtexsolution-logo.png": {
       "*": {
         "id": "(sc_client)/./public/assets/experience/ashtexsolution-logo.png",
-        "name": "*",
-        "chunks": [],
-        "async": false
-      }
-    },
-    "(app-client)/./components/education.tsx": {
-      "*": {
-        "id": "(sc_client)/./components/education.tsx",
-        "name": "*",
-        "chunks": [],
-        "async": false
-      }
-    },
-    "(app-client)/./components/contact.tsx": {
-      "*": {
-        "id": "(sc_client)/./components/contact.tsx",
-        "name": "*",
-        "chunks": [],
-        "async": false
-      }
-    },
-    "(app-client)/./public/assets/cover.webp": {
-      "*": {
-        "id": "(sc_client)/./public/assets/cover.webp",
         "name": "*",
         "chunks": [],
         "async": false
@@ -255,7 +247,7 @@
       "id": "(app-client)/./node_modules/next/dist/client/script.js",
       "name": "*",
       "chunks": [
-        "app/projects/superchat/page:static/chunks/app/projects/superchat/page.js"
+        "app/page:static/chunks/app/page.js"
       ],
       "async": false
     },
@@ -263,7 +255,7 @@
       "id": "(app-client)/./node_modules/next/dist/client/script.js",
       "name": "*",
       "chunks": [
-        "app/projects/superchat/page:static/chunks/app/projects/superchat/page.js"
+        "app/page:static/chunks/app/page.js"
       ],
       "async": false
     },
@@ -271,7 +263,7 @@
       "id": "(app-client)/./node_modules/next/dist/client/image-component.js",
       "name": "*",
       "chunks": [
-        "app/projects/superchat/page:static/chunks/app/projects/superchat/page.js"
+        "app/page:static/chunks/app/page.js"
       ],
       "async": false
     },
@@ -279,7 +271,7 @@
       "id": "(app-client)/./node_modules/next/dist/client/image-component.js",
       "name": "*",
       "chunks": [
-        "app/projects/superchat/page:static/chunks/app/projects/superchat/page.js"
+        "app/page:static/chunks/app/page.js"
       ],
       "async": false
     },
@@ -287,7 +279,7 @@
       "id": "(app-client)/./node_modules/next/dist/client/link.js",
       "name": "*",
       "chunks": [
-        "app/projects/superchat/page:static/chunks/app/projects/superchat/page.js"
+        "app/page:static/chunks/app/page.js"
       ],
       "async": false
     },
@@ -295,15 +287,7 @@
       "id": "(app-client)/./node_modules/next/dist/client/link.js",
       "name": "*",
       "chunks": [
-        "app/projects/superchat/page:static/chunks/app/projects/superchat/page.js"
-      ],
-      "async": false
-    },
-    "/Users/ehsansiddique/Downloads/ehsansiddiqui.github.io/components/navbar.tsx": {
-      "id": "(app-client)/./components/navbar.tsx",
-      "name": "*",
-      "chunks": [
-        "app/projects/superchat/page:static/chunks/app/projects/superchat/page.js"
+        "app/page:static/chunks/app/page.js"
       ],
       "async": false
     },
@@ -325,6 +309,30 @@
     },
     "/Users/ehsansiddique/Downloads/ehsansiddiqui.github.io/public/assets/projects/malariadetection.png": {
       "id": "(app-client)/./public/assets/projects/malariadetection.png",
+      "name": "*",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "/Users/ehsansiddique/Downloads/ehsansiddiqui.github.io/components/contact.tsx": {
+      "id": "(app-client)/./components/contact.tsx",
+      "name": "*",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "/Users/ehsansiddique/Downloads/ehsansiddiqui.github.io/components/navbar.tsx": {
+      "id": "(app-client)/./components/navbar.tsx",
+      "name": "*",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "/Users/ehsansiddique/Downloads/ehsansiddiqui.github.io/components/education.tsx": {
+      "id": "(app-client)/./components/education.tsx",
       "name": "*",
       "chunks": [
         "app/page:static/chunks/app/page.js"
@@ -362,37 +370,12 @@
         "app/page:static/chunks/app/page.js"
       ],
       "async": false
-    },
-    "/Users/ehsansiddique/Downloads/ehsansiddiqui.github.io/components/education.tsx": {
-      "id": "(app-client)/./components/education.tsx",
-      "name": "*",
-      "chunks": [
-        "app/page:static/chunks/app/page.js"
-      ],
-      "async": false
-    },
-    "/Users/ehsansiddique/Downloads/ehsansiddiqui.github.io/components/contact.tsx": {
-      "id": "(app-client)/./components/contact.tsx",
-      "name": "*",
-      "chunks": [
-        "app/page:static/chunks/app/page.js"
-      ],
-      "async": false
-    },
-    "/Users/ehsansiddique/Downloads/ehsansiddiqui.github.io/public/assets/cover.webp": {
-      "id": "(app-client)/./public/assets/cover.webp",
-      "name": "*",
-      "chunks": [
-        "app/projects/superchat/page:static/chunks/app/projects/superchat/page.js"
-      ],
-      "async": false
     }
   },
   "entryCSSFiles": {
     "/Users/ehsansiddique/Downloads/ehsansiddiqui.github.io/app/layout": [
       "static/css/app/layout.css"
     ],
-    "/Users/ehsansiddique/Downloads/ehsansiddiqui.github.io/app/page": [],
-    "/Users/ehsansiddique/Downloads/ehsansiddiqui.github.io/app/projects/superchat/page": []
+    "/Users/ehsansiddique/Downloads/ehsansiddiqui.github.io/app/page": []
   }
 }

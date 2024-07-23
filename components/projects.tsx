@@ -3,6 +3,8 @@ import ProjectItem from "./projectItem";
 
 import superchat from "../public/assets/projects/superchat.png";
 import malariadetection from "../public/assets/projects/malariadetection.png";
+import biographydirector from "../public/assets/projects/boarddirector.webp";
+
 
 
 function Projects() {
@@ -15,12 +17,19 @@ function Projects() {
         <h2 className="py-4">What I&apos;ve Built</h2>
         <div className="grid md:grid-cols-2 gap-8">
           <ProjectItem
-            image={malariadetection}
-            title="Medical Imaging Analysis for Malaria Detection"
-            tools={["Python, TensorFlow, WanDB"]}
-            url="/projects/superchat"
+              image={malariadetection}
+              title="Medical Imaging Analysis for Malaria Detection"
+              tools={["Python, TensorFlow, WanDB"]}
+              url="/projects/superchat"
           />
+          {/*<ProjectItem*/}
+          {/*    image={biographydirector}*/}
+          {/*    title="Medical Imaging Analysis for Malaria Detection"*/}
+          {/*    tools={["Python, TensorFlow, WanDB"]}*/}
+          {/*    url="/projects/superchat"*/}
+          {/*/>*/}
         </div>
+
       </div>
     </div>
   );

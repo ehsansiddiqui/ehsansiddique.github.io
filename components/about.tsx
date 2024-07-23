@@ -4,6 +4,7 @@ import Image from "next/image";
 import AboutImage from "../public/assets/dpimages.jpeg";
 import hoverImage from "../public/assets/dpimages.jpeg";
 import React, { useState, useEffect, useRef } from "react";
+import pariscite from "../public/assets/imagepariscite.jpg";
 
 const About = () => {
   const [profile, setProfile] = useState(AboutImage);
@@ -25,16 +26,22 @@ const About = () => {
             If I have to describe myself in a single word, it would be{" "}
             <strong>&quot;self-starter🏃&quot;</strong>. I am a curious soul who
             is always seeking problems to crunch and put in the best efforts💪
-            to solve them. I am enthusiastic about my objectives and can squeeze
-            myself into fixing issues with whom I am married👨‍💻. I always
-            incorporate resources into my arsenal🏹 to accomplish my job.
+            to solve them. I am enthusiastic about my objectives and focused to achieve
+            my goal by working on it consistently. I always incorporate resources into my arsenal🏹 to accomplish my job.
           </p>
 
           <p className="py-2 text-gray-600">
-            I have around an year of experience as a software engineer{" "}
-            <strong>@Algolab</strong>. During my professional experience,
-            I&apos;ve cultivated a unique approach to my work that emphasizes a
-            willingness to take calculated risks. This mindset has allowed me to
+            I hold a master degree in data science from Université Paris Cité, where I developed a solid foundation in both
+            theoretical and applied aspects of data science. My expertise spans various domains, including predictive analytics,
+            natural language processing, data visualization, and big data technologies.
+
+          </p>
+          <p className="py-2 text-gray-600">I am proficient in programming languages such as Python, R, and SQL, and have hands-on experience with tools and frameworks like TensorFlow, PyTorch, and Hadoop. I am committed to continuous learning
+            and staying at the forefront of technological advancements in the field of data science.</p>
+          <p className="py-2 text-gray-600">
+             During my professional experience, I&apos;ve cultivated a unique approach
+            to my work that emphasizes a willingness to take calculated risks.
+            This mindset has allowed me to
             push boundaries and uncover innovative solutions to complex
             problems. I thrive under high-pressure situations, consistently
             delivering exceptional results even when faced with tight deadlines
@@ -54,10 +61,10 @@ const About = () => {
             spirit that fuels my continuous growth and fuels my passion for
             creating meaningful, impactful software solutions.💡🔧🌐👨‍💻
           </p>
-
+          {/*<p>My approach to data science is not just about crunching numbers; it's about storytelling with data. I believe in the power of data to drive innovation and create impactful changes. I am excited to share my journey, projects, and insights with you through this portfolio.</p>*/}
           <p className="py-2 text-gray-600">
-            I am open to work on collaborative projects within software
-            engineering or intern/full time positions.
+            Feel free to explore my work and connect with me for potential collaborations, opportunities,
+            or discussions about data science. Let's turn data into knowledge and knowledge into action.
             <br />
             <strong>🔗 Let&apos;s Connect</strong>
           </p>

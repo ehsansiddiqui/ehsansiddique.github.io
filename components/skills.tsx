@@ -45,14 +45,14 @@ function Skills() {
             <div className="grid grid-cols-2 gap-4 justify-center items-center">
               <div className="m-auto">
                 <Image
-                  src="/assets/skills/CPP_.png"
+                  src="/assets/skills/sql-database.png"
                   width="64"
                   height="64"
                   alt="/"
                 />
               </div>
               <div className="flex flex-col items-center justify-center">
-                <h3>C++</h3>
+                <h3>SQL</h3>
               </div>
             </div>
           </div>
@@ -62,14 +62,14 @@ function Skills() {
             <div className="grid grid-cols-2 gap-4 justify-center items-center">
               <div className="m-auto">
                 <Image
-                  src="/assets/skills/nextjs.png"
+                  src="/assets/skills/django.webp"
                   width="64"
                   height="64"
                   alt="/"
                 />
               </div>
               <div className="flex flex-col items-center justify-center">
-                <h3>NextJS</h3>
+                <h3>Django</h3>
               </div>
             </div>
           </div>
@@ -89,19 +89,19 @@ function Skills() {
             </div>
           </div>
           <div className="lg:block hidden col-span-2"></div>
-          {/* Databases */}
+          {/* ML Framework */}
           <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
             <div className="grid grid-cols-2 gap-4 justify-center items-center">
               <div className="m-auto">
                 <Image
-                  src="/assets/skills/firebase.png"
+                  src="/assets/skills/tensorflow-icon.svg"
                   width="64"
                   height="64"
                   alt="/"
                 />
               </div>
               <div className="flex flex-col items-center justify-center">
-                <h3>FIREBASE</h3>
+                <h3>TensorFlow</h3>
               </div>
             </div>
           </div>
@@ -109,31 +109,31 @@ function Skills() {
             <div className="grid grid-cols-2 gap-4 justify-center items-center">
               <div className="m-auto">
                 <Image
-                  src="/assets/skills/mongo.png"
+                  src="/assets/skills/hf-logo.svg"
                   width="64"
                   height="64"
                   alt="/"
                 />
               </div>
               <div className="flex flex-col items-center justify-center">
-                <h3>MONGO</h3>
+                <h3>HuggingFace</h3>
               </div>
             </div>
           </div>
           <div className="col-span-2 lg:block hidden"></div>
-          {/* Design */}
+          {/* Cloud and Tools */}
           <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
             <div className="grid grid-cols-2 gap-4 justify-center items-center">
               <div className="m-auto">
                 <Image
-                  src="/assets/skills/html.png"
+                  src="/assets/skills/google-cloud.svg"
                   width="64"
                   height="64"
                   alt="/"
                 />
               </div>
               <div className="flex flex-col items-center justify-center">
-                <h3>HTML</h3>
+                <h3>Google Cloud Platform</h3>
               </div>
             </div>
           </div>
@@ -141,14 +141,14 @@ function Skills() {
             <div className="grid grid-cols-2 gap-4 justify-center items-center">
               <div className="m-auto">
                 <Image
-                  src="/assets/skills/css.png"
+                  src="/assets/skills/icons-tableau.svg"
                   width="64"
                   height="64"
                   alt="/"
                 />
               </div>
               <div className="flex flex-col items-center justify-center">
-                <h3>CSS</h3>
+                <h3>Tableau</h3>
               </div>
             </div>
           </div>

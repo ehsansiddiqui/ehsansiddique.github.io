@@ -71,10 +71,10 @@ function Navbar() {
             <Link href="/#about" className="py-2">
               <li className="ml-10 text-sm uppercase hover:border-b">About</li>
             </Link>
-            <Link href="/#about" className="py-2">
+            <Link href="/#education" className="py-2">
               <li className="ml-10 text-sm uppercase hover:border-b">Education</li>
             </Link>
-            <Link href="/#about" className="py-2">
+            <Link href="/#experience" className="py-2">
               <li className="ml-10 text-sm uppercase hover:border-b">Experience</li>
             </Link>
             <Link href="/#skills" className="py-2">
@@ -136,6 +136,11 @@ function Navbar() {
                   Home
                 </li>
               </Link>
+              <Link href="/#education">
+                <li onClick={() => setNav(false)} className="py-4 text-sm">
+                  Education
+                </li>
+              </Link>
               <Link href="/#about">
                 <li onClick={() => setNav(false)} className="py-4 text-sm">
                   About
@@ -144,6 +149,11 @@ function Navbar() {
               <Link href="/#skills">
                 <li onClick={() => setNav(false)} className="py-4 text-sm">
                   Skills
+                </li>
+              </Link>
+              <Link href="/#experience">
+                <li onClick={() => setNav(false)} className="py-4 text-sm">
+                  Projects
                 </li>
               </Link>
               <Link href="/#projects">

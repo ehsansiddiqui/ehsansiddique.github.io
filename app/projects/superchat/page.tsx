@@ -7,7 +7,7 @@ export default function Home() {
   return (
     <>
       <Navbar />
-      <Superchat />
+      <Superchat/>
       {/* <!-- Google tag (gtag.js) --> */}
       <Script
         strategy="afterInteractive"
