@@ -90,7 +90,7 @@ function Navbar() {
                 Contact
               </li>
             </Link>
-            <Link href={"http://tinyurl.com/usxj5dyv"} style={{marginLeft:20}}>
+            <Link href={"https://tinyurl.com/3mktjdyk"} style={{marginLeft:20}}>
               <button className="bg-gradient-to-r from-[#5651e5] to-[#709dff] px-8 py-2 mr-8">
                 Resume
               </button>

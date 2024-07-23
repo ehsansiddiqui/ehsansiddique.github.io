@@ -96,14 +96,6 @@
         "async": false
       }
     },
-    "(app-client)/./components/navbar.tsx": {
-      "*": {
-        "id": "(sc_client)/./components/navbar.tsx",
-        "name": "*",
-        "chunks": [],
-        "async": false
-      }
-    },
     "(app-client)/./components/education.tsx": {
       "*": {
         "id": "(sc_client)/./components/education.tsx",
@@ -139,6 +131,14 @@
     "(app-client)/./public/assets/experience/ashtexsolution-logo.png": {
       "*": {
         "id": "(sc_client)/./public/assets/experience/ashtexsolution-logo.png",
+        "name": "*",
+        "chunks": [],
+        "async": false
+      }
+    },
+    "(app-client)/./components/navbar.tsx": {
+      "*": {
+        "id": "(sc_client)/./components/navbar.tsx",
         "name": "*",
         "chunks": [],
         "async": false
@@ -227,22 +227,6 @@
       ],
       "async": false
     },
-    "/Users/ehsansiddique/Downloads/ehsansiddiqui.github.io/node_modules/next/font/google/target.css?{\"path\":\"app/layout.tsx\",\"import\":\"Inter\",\"arguments\":[{\"subsets\":[\"latin\"]}],\"variableName\":\"inter\"}": {
-      "id": "(app-client)/./node_modules/next/font/google/target.css?{\"path\":\"app/layout.tsx\",\"import\":\"Inter\",\"arguments\":[{\"subsets\":[\"latin\"]}],\"variableName\":\"inter\"}",
-      "name": "*",
-      "chunks": [
-        "app/layout:static/chunks/app/layout.js"
-      ],
-      "async": false
-    },
-    "/Users/ehsansiddique/Downloads/ehsansiddiqui.github.io/app/globals.css": {
-      "id": "(app-client)/./app/globals.css",
-      "name": "*",
-      "chunks": [
-        "app/layout:static/chunks/app/layout.js"
-      ],
-      "async": false
-    },
     "/Users/ehsansiddique/Downloads/ehsansiddiqui.github.io/node_modules/next/dist/client/script.js": {
       "id": "(app-client)/./node_modules/next/dist/client/script.js",
       "name": "*",
@@ -323,14 +307,6 @@
       ],
       "async": false
     },
-    "/Users/ehsansiddique/Downloads/ehsansiddiqui.github.io/components/navbar.tsx": {
-      "id": "(app-client)/./components/navbar.tsx",
-      "name": "*",
-      "chunks": [
-        "app/page:static/chunks/app/page.js"
-      ],
-      "async": false
-    },
     "/Users/ehsansiddique/Downloads/ehsansiddiqui.github.io/components/education.tsx": {
       "id": "(app-client)/./components/education.tsx",
       "name": "*",
@@ -370,12 +346,36 @@
         "app/page:static/chunks/app/page.js"
       ],
       "async": false
+    },
+    "/Users/ehsansiddique/Downloads/ehsansiddiqui.github.io/components/navbar.tsx": {
+      "id": "(app-client)/./components/navbar.tsx",
+      "name": "*",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "/Users/ehsansiddique/Downloads/ehsansiddiqui.github.io/node_modules/next/font/google/target.css?{\"path\":\"app/layout.tsx\",\"import\":\"Inter\",\"arguments\":[{\"subsets\":[\"latin\"]}],\"variableName\":\"inter\"}": {
+      "id": "(app-client)/./node_modules/next/font/google/target.css?{\"path\":\"app/layout.tsx\",\"import\":\"Inter\",\"arguments\":[{\"subsets\":[\"latin\"]}],\"variableName\":\"inter\"}",
+      "name": "*",
+      "chunks": [
+        "app/layout:static/chunks/app/layout.js"
+      ],
+      "async": false
+    },
+    "/Users/ehsansiddique/Downloads/ehsansiddiqui.github.io/app/globals.css": {
+      "id": "(app-client)/./app/globals.css",
+      "name": "*",
+      "chunks": [
+        "app/layout:static/chunks/app/layout.js"
+      ],
+      "async": false
     }
   },
   "entryCSSFiles": {
+    "/Users/ehsansiddique/Downloads/ehsansiddiqui.github.io/app/page": [],
     "/Users/ehsansiddique/Downloads/ehsansiddiqui.github.io/app/layout": [
       "static/css/app/layout.css"
-    ],
-    "/Users/ehsansiddique/Downloads/ehsansiddiqui.github.io/app/page": []
+    ]
   }
 }
