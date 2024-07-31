@@ -96,17 +96,17 @@
         "async": false
       }
     },
-    "(app-client)/./public/assets/experience/logo_iimcb.png": {
+    "(app-client)/./public/assets/experience/isep-logo.png": {
       "*": {
-        "id": "(sc_client)/./public/assets/experience/logo_iimcb.png",
+        "id": "(sc_client)/./public/assets/experience/isep-logo.png",
         "name": "*",
         "chunks": [],
         "async": false
       }
     },
-    "(app-client)/./public/assets/experience/isep-logo.png": {
+    "(app-client)/./public/assets/experience/logo_iimcb.png": {
       "*": {
-        "id": "(sc_client)/./public/assets/experience/isep-logo.png",
+        "id": "(sc_client)/./public/assets/experience/logo_iimcb.png",
         "name": "*",
         "chunks": [],
         "async": false
@@ -331,16 +331,16 @@
       ],
       "async": false
     },
-    "/Users/ehsansiddique/Downloads/ehsansiddiqui.github.io/public/assets/experience/logo_iimcb.png": {
-      "id": "(app-client)/./public/assets/experience/logo_iimcb.png",
+    "/Users/ehsansiddique/Downloads/ehsansiddiqui.github.io/public/assets/experience/isep-logo.png": {
+      "id": "(app-client)/./public/assets/experience/isep-logo.png",
       "name": "*",
       "chunks": [
         "app/page:static/chunks/app/page.js"
       ],
       "async": false
     },
-    "/Users/ehsansiddique/Downloads/ehsansiddiqui.github.io/public/assets/experience/isep-logo.png": {
-      "id": "(app-client)/./public/assets/experience/isep-logo.png",
+    "/Users/ehsansiddique/Downloads/ehsansiddiqui.github.io/public/assets/experience/logo_iimcb.png": {
+      "id": "(app-client)/./public/assets/experience/logo_iimcb.png",
       "name": "*",
       "chunks": [
         "app/page:static/chunks/app/page.js"
