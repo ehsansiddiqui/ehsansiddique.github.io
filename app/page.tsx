@@ -8,6 +8,7 @@ import Education from "@/components/education";
 import Research from "@/components/research";
 import Contact from "@/components/contact";
 import Script from "next/script";
+import Certification from "@/components/certification";
 import Webinars from "@/components/webinars";
 
 export default function Home() {
@@ -20,6 +21,7 @@ export default function Home() {
       {/*<Research />*/}
       {/*<Webinars />*/}
       <Experience />
+        <Certification/>
       <Projects />
       <Skills />
       <Contact />
