@@ -1,2 +1,17 @@
-node_modules
+# Ignore node_modules
+node_modules/
 
+# Ignore macOS system files
+.DS_Store
+
+# Ignore IntelliJ IDEA project files
+.idea/
+
+# Ignore Next.js build output
+.next/
+
+# Ignore log files
+*.log
+
+# Ignore environment variables
+.env
